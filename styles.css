@@ -1,0 +1,333 @@
+/* UX.html Stylesheet */
+
+html {
+  margin: auto 0;
+   font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 21px;
+  line-height: 27px;
+  font-weight:300;
+  }
+
+ body {
+ }
+
+h1 {
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 700;
+	margin: 0px 0px 30px 0px;
+}
+
+.d-flex {
+	width: 50%;
+}
+
+.green-text {
+	color: #2ECC71;
+}
+
+.nav-link {
+	font-size: 16px;
+	color: #2ECC71;
+}
+
+/* Navbar hamburger */
+
+.navbar.navbar-dark.bg-dark {
+	display: none;
+}
+
+.navbar {
+}
+
+.pos-f-t {
+	display: none;
+}
+
+/* --------------------------------------------------------------------- */
+
+
+/* Social Media */
+
+.fab {
+	color: #2ECC71;
+}
+
+.fab:hover {
+	color: #1D8348;
+	cursor: pointer;
+}
+
+
+/* Links */
+
+a {
+	text-decoration: none;
+	color: #2ECC71;
+	font-size: 24px;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #1D8348;
+}
+
+.a-non-card {
+	text-decoration: underline;
+	color: #2ECC71;
+}
+
+
+/* Navbar */
+
+.nav {
+	padding-right: 85px;
+	background-color: #f2f2f2;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	padding: 50px 85px;
+	background-color: #f2f2f2;
+	height: 100vh;
+}
+
+#jumbotron-left-column {
+	display: flex;
+	flex-direction: column;
+}
+
+#jumbotron-right-column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.jumbotron-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fab {
+	margin-right: 10px;
+	}
+
+.fas {
+	color: #2ECC71;
+	margin: -75px;
+}
+
+button {
+	margin-left: 25px;
+}
+
+
+.container-fluid {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+}
+
+/* Video Case Study */
+
+#case-study-video {
+	padding: 100px 85px;
+}
+
+/* Cards Case Study */
+
+#case-studies-list {
+	padding: 100px 85px 20px 85px;
+}
+
+.card {
+	margin: 10px 85px;
+	border: 1px solid white;
+}
+
+.card:hover {
+	background-color: #EAFAF1;
+	border: 1px solid #58D68D;
+	cursor: pointer;
+	color: #58D68D;
+}
+
+
+.card-title {
+	font-weight: 700;
+}
+
+.external-link {
+	margin: 35px 85px;
+	text-decoration: underline;
+}
+
+.btn-primary {
+	background-color: #2ECC71;
+	border: 1px solid #2ECC71;
+}
+
+.btn-primary:hover {
+	background-color: #1D8348;
+	border: 1px solid #1D8348;
+}
+
+/* Contact */
+
+.contact-h4 {
+	margin: 10px 85px 100px 85px;
+}
+
+.span-external-link {
+	margin-left: 85px;
+}
+
+#summary {
+	margin: 150px 85px 10px 85px;
+	}
+
+/*Footer */
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	text-align: center;
+	background-color: #EAFAF1;
+	margin-top: 50px;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 900px) {
+	body {
+	}
+
+	.container-fluid {
+		flex-direction: column;
+	}
+
+	.jumbotron {
+		padding: 15px 15px;
+		height: auto;
+	}
+
+	#jumbotron-right-column {
+		margin: 75px 0px;
+	}
+
+	.d-flex {
+		width: 100%;
+	}
+
+	#case-study-video {
+		padding: 25px 15px;
+	}
+
+	.card {
+		margin: 10px 15px;
+		padding: 5px;
+	}
+
+	#case-studies-list {
+	padding: 25px 15px 15px 15px;
+	}
+
+	.external-link {
+	margin: 35px 15px;
+	}
+
+	.contact-h4 {
+		margin: 45px 15px 100px 15px;
+		word-break: break-all;
+	}
+
+	iframe {
+		width: 100%;
+		height: 0 auto;
+		margin: 75px 0px;
+	} 
+
+	img {
+		width: 100%;
+		height: 0 auto;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.navbar.navbar-dark.bg-dark {
+	display: block;
+	}
+
+	.pos-f-t {
+		display: block;
+	}
+
+	#summary {
+	margin: 25px 15px 10px 15px;
+	}
+
+	.navbar-toggler {
+		margin: 10px 0px 10px -10px;
+	}
+
+	.a-non-card {
+		font-size: 26px;
+	}
+
+}
+
+
+}
+
+
+.fas.fa-long-arrow-alt-right {
+  width: 100px;
+  transition: transform 0.2s;
+}
+
+.fas.fa-long-arrow-alt-right:hover {
+  transform: translate(10px, 0px);
+  color: #58D68D;
+}
+
+
+
+.pos-f-t {
+background-color: #f2f2f2;
+padding-left: 0px;
+margin-left: 0px;
+}
+
+.collapse {
+background-color: #2ECC71;
+	
+}
+
+.bg-dark {
+	border: 2px solid yellow;
+	background-color: orange;
+}
+
+.h4 {
+	color: white;
+	margin-left: -20px;
+}
+
+.fa-bars {
+	background-color: #2ECC71;
+	color: white;
+	border-radius: 3px;
+	padding: 6px 10px;
+}
+
+
